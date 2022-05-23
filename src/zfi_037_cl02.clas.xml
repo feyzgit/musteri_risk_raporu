@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZFI_037_CL02</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>FI: Musteri / Satici Mizani</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Kayıt Daha Önce Atılmış !Tekrar İşleme Alınmayacak !</ENTRY>
+     <LENGTH>104</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Terminal ID ye bağlı hesap bakımı ZFI079 tablosunda bulunamadı !</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY> - Tek Çekim - Kredi Kartı İşlemi</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY> - Taksitli - Kredi Kartı İşlemi</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>ORTAK POS</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>&apos;-&apos;</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B01</KEY>
+     <ENTRY>Denkleştir</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>)</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Kayıt Daha Önce Atılmış !Tekrar İşleme Alınmayacak !</ENTRY>
+       <LENGTH>104</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Terminal ID ye bağlı hesap bakımı ZFI079 tablosunda bulunamadı !</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY> - Tek Çekim - Kredi Kartı İşlemi</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY> - Taksitli - Kredi Kartı İşlemi</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>ORTAK POS</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>&apos;-&apos;</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>B01</KEY>
+       <ENTRY>Denkleştir</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MO_GRID</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MO_GRID</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MO_SINGLETON</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>FI: Müşteri Değerlendirmesi/Yaşlandırması</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MO_SINGLETON</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>FI: Müşteri Değerlendirmesi/Yaşlandırması</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MS_RANGE</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>Selection type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MS_RANGE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Selection type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MT_ALV</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>FI: AGT387 raporu için özet liste yapısı</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MT_ALV</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>FI: AGT387 raporu için özet liste yapısı</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_ANY_CLR_DOC</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>Seçme kutusu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_ANY_CLR_DOC</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Seçme kutusu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_ERROR</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>Hata Göstergesi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_ERROR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Hata Göstergesi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_REPORT</CMPNAME>
+     <LANGU>)</LANGU>
+     <DESCRIPT>Rapor adı</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFI_037_CL02</CLSNAME>
+     <CMPNAME>MV_REPORT</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Rapor adı</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

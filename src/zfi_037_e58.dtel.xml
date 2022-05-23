@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZFI_037_E58</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>AFLE15D2O20S_TO_23D2O31S</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Vd. Gelmeyen Cek Tutar ( limit )</DDTEXT>
+    <REPTEXT>Vd. Gelmeyen Cek Tutar ( limit )</REPTEXT>
+    <SCRTEXT_S>Vd. Gelmey</SCRTEXT_S>
+    <SCRTEXT_M>Vd. Gelmeyen Cek Tut</SCRTEXT_M>
+    <SCRTEXT_L>Vd. Gelmeyen Cek Tutar ( limit )</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>)</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>)</DDLANGUAGE>
+     <DDTEXT>Vd. Gelmeyen Cek Tutar ( limit )</DDTEXT>
+     <REPTEXT>Vd. Gelmeyen Cek Tutar ( limit )</REPTEXT>
+     <SCRTEXT_S>Vd. Gelmey</SCRTEXT_S>
+     <SCRTEXT_M>Vd. Gelmeyen Cek Tut</SCRTEXT_M>
+     <SCRTEXT_L>Vd. Gelmeyen Cek Tutar ( limit )</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
